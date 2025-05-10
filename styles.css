@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #1a1a1a;
+    color: white;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+    position: sticky;
+    top: 0;
+    animation: slidein 1s ease-out forwards;
+}
+nav a{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease,color 0.3s ease;
+}
+nav a:hover{
+    transform: scale(1.1);
+    color: #00ffcc;
+}
+#hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#0f0c29,#302b63,#24243e);
+    animation: fade in 2s ease-out;
+}
+.project card{
+    background: #2c2c2c;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.protect card:hover{
+    transform: scale(1.05);
+    background-color: #383838;
+}
+
+
